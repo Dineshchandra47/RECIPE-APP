@@ -16,7 +16,7 @@ export default function RegisterRec() {
 
         const {email,password,rePass,change} =state
         if(change){
-            return toast.error('please agree')
+            return toast.error('Please fill details & Agree T&C ')
         }
         if(password !==rePass){
             return toast.error('ReEnter-password and Password must be same')
