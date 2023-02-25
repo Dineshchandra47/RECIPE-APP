@@ -45,17 +45,19 @@ export default function Home() {
           marginTop: "40px",
         }}
       >
-        LOG OUT
+        <button className="new" style={{ padding: "10px" , float: "right"}}>
+          LOG OUT
+        </button>
       </h3>
       <div className="inner">
         <input
           type="text"
           onChange={(e) => setsearch(e.target.value)}
-          placeholder="Search by Full Title Name..."
+          placeholder="Search Recipe here"
           style={{ fontSize: "30px" }}
         />
         <div style={{ marginTop: "50px" }} className="new">
-          <button onClick={hand}>Add New Recipe</button>
+          <button onClick={hand}>Add  Recipe</button>
         </div>
         <h1 style={{ marginLeft: "40px" }}>Home</h1>
         {filter.length === 0 ? (

@@ -32,7 +32,7 @@ export default function Particular() {
         onClick={redir}
         style={{ color: "blue", cursor: "pointer", marginLeft: 0 }}
       >
-        Reach Home page
+        Home page
       </h3>
       {state.map((e, i) => {
         return (
