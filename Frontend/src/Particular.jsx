@@ -32,7 +32,7 @@ export default function Particular() {
         onClick={redir}
         style={{ color: "blue", cursor: "pointer", marginLeft: 0 }}
       >
-        Click here to Reach Home page
+        Reach Home page
       </h3>
       {state.map((e, i) => {
         return (
@@ -60,10 +60,7 @@ export default function Particular() {
           </div>
         );
       })}
-      <h1>
-        you can see Ingredients or Instructions here if you click anyone of the
-        button
-      </h1>
+      <h1>Ingredients or Instructions</h1>
       <div style={{ fontSize: "25px", color: "whitesmoke" }}>{state2}</div>
     </div>
   );

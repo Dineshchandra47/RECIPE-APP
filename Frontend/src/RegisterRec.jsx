@@ -44,10 +44,10 @@ export default function RegisterRec() {
             <h1>ReEnter-password</h1>
             <input type="password" onChange={(e)=>setState({...state,rePass:e.target.value})} style={{width:'100%',height:'30px',borderRadius:'10px'}}/>
             <div style={{marginTop:'40px'}}>
-            <input type="radio" onChange={()=>setState({...state,change:false})}/>Agree with condition
+            <input type="radio" onChange={()=>setState({...state,change:false})}/>Agree with T&C
             </div>
             <div>
-            <button onClick={handler} style={{width:'100%',height:'40px',marginTop:'20px'}}>Register here</button>
+            <button onClick={handler} style={{width:'100%',height:'40px',marginTop:'20px'}}>REGISTER</button>
             </div>
         </div>
     )

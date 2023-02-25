@@ -62,7 +62,7 @@ export default function LoginReci() {
         </button>
       </div>
       <h4 style={{ marginLeft: "140px" }}>
-        Dont have an account? click here{" "}
+        Dont have an account?click here{" "}
         <span style={{ color: "blue", cursor: "pointer" }} onClick={registerRe}>
           Register
         </span>

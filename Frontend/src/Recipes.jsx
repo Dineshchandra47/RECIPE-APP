@@ -30,7 +30,7 @@ export default function Recipes() {
         <input type="text" onChange={(e)=>setState({...state,Title:e.target.value})} style={{width:'100%',height:'30px',borderRadius:'10px'}}/>
         <h1>Author :</h1>
         <input type="text" onChange={(e)=>setState({...state,Author:e.target.value})} style={{width:'100%',height:'30px',borderRadius:'10px'}}/>
-        <h1>Img :</h1>
+        <h1>Imgage :</h1>
         <FileBase64 onDone={(file)=>setState({...state,Img:file.base64})}/> 
         <h1>Ingredients :</h1>
         <textarea  id="" cols="30" rows="5" onChange={(e)=>setState({...state,Ingredients:e.target.value})} style={{width:'100%',height:'30px',borderRadius:'10px'}}></textarea>

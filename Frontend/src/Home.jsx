@@ -57,7 +57,7 @@ export default function Home() {
         <div style={{ marginTop: "50px" }} className="new">
           <button onClick={hand}>Add New Recipe</button>
         </div>
-        <h1 style={{ marginLeft: "40px" }}>All Recipes</h1>
+        <h1 style={{ marginLeft: "40px" }}>Home</h1>
         {filter.length === 0 ? (
           <div className="flexes">
             {state.map((e, i) => {
@@ -67,7 +67,7 @@ export default function Home() {
                   style={{ position: "relative", marginTop: "20px" }}
                 >
                   <a href={`/recip/${e._id}`}>
-                    <img src={e.Img}  alt="images"/>
+                    <img src={e.Img} alt="images" />
                     <p
                       style={{
                         textAlign: "center",
@@ -91,7 +91,7 @@ export default function Home() {
               return (
                 <div key={i} style={{ position: "relative" }}>
                   <a href={`/recip/${e._id}`}>
-                    <img src={e.Img}  alt="images"/>
+                    <img src={e.Img} alt="images" />
                     <p
                       style={{
                         textAlign: "center",
